@@ -1,5 +1,3 @@
-Dưới đây là bản dịch tiếng Việt cho danh sách tài liệu của bạn, vẫn giữ nguyên định dạng Markdown:
-
 ## ПОК (Kiến trúc máy tính)
 
 1. Cuốn sách đầu tiên mà tôi thực sự khuyên dùng: 
