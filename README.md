@@ -1,62 +1,66 @@
-## ПОК
+Dưới đây là bản dịch tiếng Việt cho danh sách tài liệu của bạn, vẫn giữ nguyên định dạng Markdown:
 
-1. Перша книга, як б я настійливо радив: 
+## ПОК (Kiến trúc máy tính)
+
+1. Cuốn sách đầu tiên mà tôi thực sự khuyên dùng: 
 [David Harris, Sarah Harris «Digital Design and Computer Architecture»](books/Digital%20Design%20and%20Computer%20Architecture.%20ARM%20Edition%20by%20Sarah%20Harris,%20David%20Harris.pdf). 
-Краще англійською і варіант ARM(*), але можна як MIPS-варіант, так і російський. 
-Легко знаходиться в магазинах чи в піратів, 
-[російський варіант безкоштовний.](http://microelectronica.pro/wp-content/uploads/books/digital-design-and-computer-architecture-russian-translation.pdf)
+Tốt nhất là đọc bản tiếng Anh và phiên bản ARM(*), nhưng bạn cũng có thể dùng bản MIPS hoặc bản tiếng Nga. 
+Rất dễ tìm thấy ở các cửa hàng hoặc các nguồn chia sẻ, 
+[bản tiếng Nga được cung cấp miễn phí.](http://microelectronica.pro/wp-content/uploads/books/digital-design-and-computer-architecture-russian-translation.pdf)
  
-2. Книга Таненбаума: ["Modern Operating Systems"](https://os.ecci.ucr.ac.cr/slides/Andrew-S.-Tanenbaum-Modern-Operating-Systems.pdf),
-глави: 1, 2, 3 і 7 -- обов'язково, 4, 5 бажано. Решта можна, але ми з їх матеріалом 
-потім працюватимемо. [Детальніше, що це за глави і навіщо вам вони.](http://indrekis2.blogspot.com/2016/06/blog-post.html)
+2. Sách của Tanenbaum: ["Modern Operating Systems"](https://os.ecci.ucr.ac.cr/slides/Andrew-S.-Tanenbaum-Modern-Operating-Systems.pdf),
+các chương: 1, 2, 3 và 7 -- bắt buộc, 4, 5 nên đọc. Các chương còn lại có thể đọc sau, chúng ta sẽ 
+làm việc với các nội dung đó sau này. [Chi tiết hơn về các chương này và lý do tại sao bạn cần chúng.](http://indrekis2.blogspot.com/2016/06/blog-post.html)
  
-3. [Підручник по С. Класична книга Кернігана і Річчі](books/The%20C%20Programming%20Language%20by%20Brian%20W.%20Kernighan,%20Dennis%20M.%20Ritchie.pdf) 
-підійде. (Вона справді проста і доступна -- вчити С++ по довіднику Страуструпа я не радив би :=)
+3. [Giáo trình C. Cuốn sách kinh điển của Kernighan và Ritchie](books/The%20C%20Programming%20Language%20by%20Brian%20W.%20Kernighan,%20Dennis%20M.%20Ritchie.pdf) 
+là phù hợp. (Nó thực sự đơn giản và dễ hiểu -- tôi không khuyên bạn học C++ qua cuốn hướng dẫn của Stroustrup đâu :=)
 
-4. Note: I've had to comply with a DMCA takedown notice for this book. It now links to the
-author's uncorrected draft for the book published for free, not the final publisher's PDF.
+4. Lưu ý: Tôi đã phải tuân thủ thông báo gỡ bỏ theo DMCA cho cuốn sách này. Hiện tại nó liên kết tới 
+bản nháp chưa chỉnh sửa của tác giả được xuất bản miễn phí, không phải tệp PDF chính thức từ nhà xuất bản.
 ["Linkers and Loaders"](https://www.iecc.com/linker/)
-[Amazon-сторінка](https://www.amazon.com/Linkers-Kaufmann-Software-Engineering-Programming/dp/1558604960)
-Вона відносно складна для вас, але ми повинні будемо ці ідеї засвоїти так чи по іншому.
+[Trang Amazon](https://www.amazon.com/Linkers-Kaufmann-Software-Engineering-Programming/dp/1558604960)
+Cuốn này tương đối khó đối với bạn, nhưng bằng cách này hay cách khác, chúng ta sẽ phải nắm vững các ý tưởng này.
 
-5. Кому Харріс і Харріс ну зовсім не піде, можна 
+5. Đối với những ai thấy cuốn Harris & Harris không hợp, có thể dùng: 
 [David Patterson, John Hennessy «Computer Organization and Design: The Hardware/Software Interface»](books/Computer%20Organization%20and%20Design%20The%20Hardware%20Software%20Interface%20ARM%20Edition%20by%20David%20A.%20Patterson,%20John%20L.%20Hennessy.pdf)
--- теж дуже достойна, і на АКС буде потрібною. Якщо зовсім-зовсім важко, як найлайтовіший варіант: 
+-- cũng rất giá trị và sẽ cần thiết cho môn AKS. Nếu vẫn thấy quá khó, phương án nhẹ nhàng nhất là: 
 [Andrew S. Tanenbaum, Todd Austin «Structured computer organization»](books/Structured%20Computer%20Organization%20by%20Andrew%20S.%20Tanenbaum,%20%20Todd%20Austin.pdf),
- глави 1-4 (може ще 5), але єдина вартісна глава там 4-та, решта -- таке...
+ chương 1-4 (có thể cả chương 5), nhưng chương thực sự giá trị duy nhất là chương 4, còn lại thì bình thường...
 
-6. Для частини роботи із дискретними мікросхемами, яка буде в кінці, на додачу до Харріс і Харріс, 
-дуже хороша книжка: [Roger Tokheim, «Digital Electronics: Principles and Applications»](books/Digital%20Electronics%20Principles%20and%20Applications%20by%20Roger%20L.%20Tokheim.pdf)
- (є російський переклад). Можна і старе видання, 1988 -- ті речі не змінилися.
+6. Về phần làm việc với các vi mạch rời ở cuối khóa, bổ sung cho cuốn Harris & Harris là 
+cuốn sách rất hay: [Roger Tokheim, «Digital Electronics: Principles and Applications»](books/Digital%20Electronics%20Principles%20and%20Applications%20by%20Roger%20L.%20Tokheim.pdf)
+ (có bản dịch tiếng Nga). Bạn cũng có thể dùng bản cũ năm 1988 -- những kiến thức cơ bản đó không hề thay đổi.
 
-7. Для практичних -- підручник по сучасному CMake ("Professional CMake: A practical guide")
-Ми будемо на практичних дуже широко ним користуватися всі три курси. 
+7. Cho phần thực hành -- giáo trình về CMake hiện đại ("Professional CMake: A practical guide")
+Chúng ta sẽ sử dụng nó rất rộng rãi trong các buổi thực hành của cả ba học phần. 
 
-8. Embedded частина -- в коментах, бо багато.
+8. Phần Embedded (Hệ thống nhúng) -- xem trong phần bình luận vì nó khá dài.
 
-9. Старі списки літератури -- буду сильно редагувати: 
-[раз](http://indrekis2.blogspot.com/2017/10/blog-post_39.html), 
-[два](http://indrekis2.blogspot.com/2017/10/blog-post_11.html), 
-[три](https://dou.ua/lenta/articles/dou-books-farenyuk/).
+9. Các danh sách tài liệu cũ -- tôi sẽ biên tập lại nhiều: 
+[một](http://indrekis2.blogspot.com/2017/10/blog-post_39.html), 
+[hai](http://indrekis2.blogspot.com/2017/10/blog-post_11.html), 
+[ba](https://dou.ua/lenta/articles/dou-books-farenyuk/).
 
-_(*) ARM i MIPS -- це так-звані ISA, грубо кажучи, системи команд процесорів. В телефонах і наших ембеддед платах -- ARM. Десктопники і ноути наші -- всі зараз x86. Про MIPS дуже багато книжок (ті ж Хеннесі і Паттерсон -- автори MIPS), але на зустріти її важко -- в роутерах та іншому спецобладнанні буває._
+_(*) ARM và MIPS -- đây là các kiến trúc tập lệnh (ISA), nói nôm na là hệ thống lệnh của bộ vi xử lý. Trong điện thoại và các bo mạch nhúng của chúng ta là ARM. Máy tính để bàn và laptop hiện nay hầu hết là x86. Có rất nhiều sách về MIPS (như của Hennessy và Patterson), nhưng thực tế khó gặp nó -- thường chỉ thấy trong các router hoặc thiết bị chuyên dụng khác._
 
-## АКС 
+---
 
-Мінімальний список необхідних книг та статей
+## АКС (Kiến trúc máy tính nâng cao)
 
-1. [Andrew S. Tanenbaum and Herbert Bos, "Modern Operating Systems"](https://os.ecci.ucr.ac.cr/slides/Andrew-S.-Tanenbaum-Modern-Operating-Systems.pdf) -- вона ближча до нашого наступного курсу, ОС, але для АКС необхідними є глави 1, 2, 3, 6, 8. (4, 5 і 7 -- бажані, решта -- можуть почекати до осені).
+Danh sách tối thiểu các sách và bài viết cần thiết:
+
+1. [Andrew S. Tanenbaum and Herbert Bos, "Modern Operating Systems"](https://os.ecci.ucr.ac.cr/slides/Andrew-S.-Tanenbaum-Modern-Operating-Systems.pdf) -- cuốn này gần với học phần Hệ điều hành tiếp theo hơn, nhưng đối với AKS thì các chương 1, 2, 3, 6, 8 là cần thiết. (Chương 4, 5 và 7 nên đọc, các chương còn lại có thể đợi đến mùa thu).
 
 2. David Patterson, John Hennessy [«Computer Organization and Design: The Hardware/Software Interface»](books/Computer%20Organization%20and%20Design%20The%20Hardware%20Software%20Interface%20ARM%20Edition%20by%20David%20A.%20Patterson,%20John%20L.%20Hennessy.pdf)
-та ["Computer Architecture A Quantitative Approach"](books/Computer%20Architecture,%20Sixth%20Edition%20A%20Quantitative%20Approach.pdf)
-цих же авторів. 
+và ["Computer Architecture A Quantitative Approach"](books/Computer%20Architecture,%20Sixth%20Edition%20A%20Quantitative%20Approach.pdf)
+của cùng tác giả. 
 
-3. Brian Goetz, Tim Peierls, Joshua Bloch, Joseph Bowbeer, David Holmes, Doug Lea, ["Java Concurrency in Practice"](books/Java%20Concurrency%20in%20Practice.pdf). Книжка вже трішки давня, але все ще актуальна -- вона не містить найновіших "фішок" Java, але детально описує принципи абстракцій середнього і низького рівня, які не змінилися.
-    Щодо архітектури пам'яті: "What every programmer should know about memory" by Ulrich Drepper.
-    Floating-point, критична тема для AI, ML, геймдеву, інших інженерних чи наукових обчислень: "What Every Computer Scientist Should Know About Floating-Point Arithmetic" (pdf). Це мінімальна стаття! Хто хоче більшого -- тут.
+3. Brian Goetz, Tim Peierls, Joshua Bloch, Joseph Bowbeer, David Holmes, Doug Lea, ["Java Concurrency in Practice"](books/Java%20Concurrency%20in%20Practice.pdf). Cuốn sách này hơi cũ một chút nhưng vẫn còn nguyên giá trị -- nó không bao gồm những tính năng mới nhất của Java, nhưng mô tả chi tiết các nguyên tắc trừu tượng mức trung bình và thấp vốn không hề thay đổi.
+    Về kiến trúc bộ nhớ: "What every programmer should know about memory" bởi Ulrich Drepper.
+    Về số phẩy động (Floating-point), một chủ đề quan trọng cho AI, ML, Game Dev và các tính toán kỹ thuật/khoa học khác: "What Every Computer Scientist Should Know About Floating-Point Arithmetic" (pdf). Đây là bài viết tối thiểu phải đọc! Ai muốn tìm hiểu sâu hơn thì xem tại đây.
 
 
-Вище -- це, так би мовити. книги для оцінок D-C. Більш просунутими, для A-B є:
+Trên đây là những cuốn sách để đạt mức điểm D-C. Để nâng cao hơn, đạt mức A-B, hãy xem:
 
 1. John Hennessy, David Patterson ["Computer Architecture : A Quantitative Approach"](books/Computer%20Architecture,%20Sixth%20Edition%20A%20Quantitative%20Approach.pdf)
 
